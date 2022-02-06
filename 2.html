@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let suhu = prompt("suhu tubuh");
+      let flu = prompt("Sakit Flu? Jawab (ya / tidak) ");
+      let pergi = prompt("keluar kota dalam seminggu ini? Jawab (ya / tidak) ");
+
+      if (suhu <= 37 && flu == "ya" && pergi == "ya") {
+        alert("Isolasi Mandiri di Rumah Satu Minggu dan sampai Flu sembuh");
+      } else if (suhu <= 37 && flu == "tidak" && pergi == "ya") {
+        alert("Isolasi Mandiri di Rumah Satu Minggu");
+      } else if (suhu <= 37 && flu == "ya" && pergi == "ya") {
+        alert("Isolasi Mandiri di Rumah sampai Flu sembuh");
+      } else if (suhu > 37) {
+        alert("Isolasi Mandiri di Rumah Satu minggu");
+      } else if (nisuhu > 37 && flu == "ya" && pergi == "ya") {
+        alert("Isolasi di Rumah Sakit");
+      }
+    </script>
+  </body>
+</html>
